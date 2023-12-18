@@ -26,3 +26,7 @@
   font-family: Pandora;
   src: url(..//fonts/Pandora\ Regular.ttf);
 }
+@font-face {
+  font-family: Chocolates-Bold;
+  src: url(..//fonts/TT\ Chocolates\ Bold.otf);
+}
