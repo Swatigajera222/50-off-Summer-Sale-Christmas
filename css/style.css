@@ -143,21 +143,31 @@ ul {
 }
 .banner-section .bg-mobile a {
   position: absolute;
-  background-image: url(..//img/btn-bg.svg);
+  background-image: url(..//img/btn-bg.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  color: #fff;
+  color: #ff1783;
   border: none;
   text-transform: uppercase;
   right: 10px;
   bottom: 60px;
   font-size: 18px;
   padding: 12px 20px;
+  font-weight: bold;
 }
 /* sec-banner-wrap */
 .sec-banner-wrap {
   position: relative;
+  width: 100%;
+}
+.sec-banner-wrap .web-sec-img {
+  display: block;
+}
+.sec-banner-wrap .mobile-sec-img {
+  display: none;
+}
+.sec-banner-wrap img {
   width: 100%;
 }
 .sec-banner-wrap a {
@@ -165,7 +175,6 @@ ul {
   font-weight: 600;
   background-color: rgb(43, 196, 61);
   font-size: 44px;
-  box-sizing: inset 0 1px 0 rgba(255, 255, 255, 0.2);
   border-radius: 15px;
   padding: 20px 50px;
   text-transform: uppercase;
@@ -567,9 +576,11 @@ ul {
   .banner-section .bg-web a {
     right: 30px;
     bottom: 130px;
-    color: #fff;
     font-size: 28px;
     padding: 16px 40px;
+  }
+  .annual-membership .annual-membership-inner h1 {
+    display: block;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -597,6 +608,9 @@ ul {
   .subscribe-dec h2 {
     font-size: 105px;
   }
+  .annual-membership .annual-membership-inner h2 {
+    font-size: 55px;
+  }
 }
 
 @media only screen and (max-width: 1150px) {
@@ -605,7 +619,15 @@ ul {
     font-size: 14px;
   }
   .annual-membership .annual-membership-inner h2 {
-    font-size: 95px;
+    font-size: 55px;
+  }
+  .subscribe-dec h3 {
+    font-size: 50px;
+  }
+  .sec-banner-wrap a {
+    font-size: 14px;
+    padding: 6px 16px;
+    border-radius: 6px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -655,8 +677,9 @@ ul {
     border-radius: 20px;
     height: 420px;
   }
+
   .annual-membership .annual-membership-inner h2 {
-    font-size: 80px;
+    font-size: 70px;
   }
   .annual-membership .annual-membership-inner h3 {
     font-size: 30px;
@@ -690,7 +713,7 @@ ul {
     margin-top: 20px;
   }
   .subscribe-dec p {
-    justify-content: center;
+    display: block;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -815,7 +838,13 @@ ul {
     right: 10px;
     bottom: 50px;
   }
-
+  .annual-membership .annual-membership-inner h1 {
+    font-size: 24px;
+  }
+  .annual-membership .annual-membership-inner h1 img {
+    width: 60px;
+    margin-right: -5px;
+  }
   .subscribe-dec p span {
     margin-left: 0px;
     margin-right: 0px;
@@ -843,6 +872,19 @@ ul {
   }
 }
 @media only screen and (max-width: 525px) {
+  .sec-banner-wrap .web-sec-img {
+    display: none;
+  }
+  .sec-banner-wrap .mobile-sec-img {
+    display: block;
+  }
+  .sec-banner-wrap a {
+    font-size: 16px;
+    padding: 8px 20px;
+    border-radius: 6px;
+    left: unset;
+    right: 5%;
+  }
   .sign-up {
     font-size: 18px;
     max-width: 145px;
@@ -955,10 +997,10 @@ ul {
     font-size: 44px;
   }
   .subscribe-dec h2 {
-    font-size: 65px;
+    font-size: 58px;
   }
   .subscribe-dec h3 {
-    font-size: 30px;
+    font-size: 24px;
   }
   .subscribe-dec p {
     display: block;
@@ -981,6 +1023,9 @@ ul {
   .sortable-wrap .bootcamp-start h3 {
     font-size: 22px;
   }
+  .subscribe-dec h2 {
+    font-size: 50px;
+  }
   .video-area iframe {
     height: 195px;
   }
@@ -1000,10 +1045,16 @@ ul {
 }
 @media only screen and (max-width: 374px) {
   .subscribe-dec h2 {
-    font-size: 50px;
+    font-size: 40px;
+  }
+  .subscribe-section {
+    padding: 40px 0px;
   }
   .subscribe-dec h3 {
     font-size: 22px;
+  }
+  .sec-banner-wrap a {
+    bottom: 18%;
   }
   .sortable-wrap .bootcamp-start h1 {
     font-size: 36px;
@@ -1038,7 +1089,7 @@ ul {
     font-size: 26px;
   }
   .annual-membership .annual-membership-inner h2 {
-    font-size: 35px;
+    font-size: 30px;
   }
   .sortable-wrap .bootcamp-start h3 {
     font-size: 18px;
