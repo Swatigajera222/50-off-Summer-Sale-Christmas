@@ -373,6 +373,22 @@ ul {
 /* video-area */
 .video-area {
   padding: 70px 0px;
+  position: relative;
+  z-index: 1;
+}
+.video-area::after {
+  content: "";
+  position: absolute;
+  background-image: url(..//img/video-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  opacity: 0.6;
 }
 .video-area iframe {
   border-radius: 20px;
