@@ -145,14 +145,15 @@ ul {
 }
 .banner-section .bg-mobile a {
   position: absolute;
-  background-image: url(..//img/btn-bg.svg);
+  /* background-image: url(..//img/btn-bg.svg); */
+  background-color: #ff1783;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  color: #ff1783;
+  color: #ffffff;
   border: none;
   text-transform: uppercase;
-  right: 10px;
+  right: 20px;
   bottom: 60px;
   font-size: 18px;
   padding: 12px 20px;
@@ -785,6 +786,9 @@ svg.icon__arrow-up {
   .web-view {
     display: none;
   }
+  .banner-section .bg-mobile a {
+    bottom: 140px;
+  }
   .subscribe-dec h2 span {
     font-size: 70px;
   }
@@ -922,7 +926,7 @@ svg.icon__arrow-up {
     padding: 10px 20px;
     line-height: 16px;
     right: 10px;
-    bottom: 50px;
+    bottom: 90px;
   }
   .annual-membership .annual-membership-inner h1 {
     font-size: 24px;
