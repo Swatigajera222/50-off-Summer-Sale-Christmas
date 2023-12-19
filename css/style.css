@@ -680,6 +680,18 @@ svg.icon__arrow-up {
     width: 80%;
     margin: auto;
   }
+  .subscribe-dec h1 {
+    font-size: 60px;
+  }
+  .subscribe-dec h2 {
+    font-size: 30px;
+  }
+  .subscribe-dec h2 span {
+    font-size: 85px;
+  }
+  .subscribe-dec h2 span .off-text {
+    font-size: 60px;
+  }
   .banner-section .bg-web a {
     right: 10px;
     bottom: 80px;
@@ -770,6 +782,15 @@ svg.icon__arrow-up {
   .web-view {
     display: none;
   }
+  .subscribe-dec h2 span {
+    font-size: 70px;
+  }
+  .subscribe-dec h2 span .off-text {
+    font-size: 50px;
+  }
+  .subscribe-dec h2 {
+    font-size: 22px;
+  }
   .sec-banner-wrap a {
     font-size: 18px;
     padding: 10px 22px;
@@ -848,7 +869,7 @@ svg.icon__arrow-up {
     text-align: start;
   }
   .subscribe-dec h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
   .subscribe-dec h2 {
     font-size: 75px;
@@ -939,6 +960,17 @@ svg.icon__arrow-up {
   }
   .sec-banner-wrap .mobile-sec-img {
     display: block;
+  }
+  .subscribe-dec h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .subscribe-dec h2 span {
+    font-size: 50px;
+  }
+  .subscribe-dec h2 span .off-text {
+    font-size: 38px;
   }
   .sec-banner-wrap a {
     font-size: 22px;
@@ -1058,10 +1090,7 @@ svg.icon__arrow-up {
     margin-bottom: 20px;
   }
   .subscribe-dec h1 {
-    font-size: 44px;
-  }
-  .subscribe-dec h2 {
-    font-size: 58px;
+    font-size: 32px;
   }
   .subscribe-dec h3 {
     font-size: 24px;
@@ -1087,8 +1116,11 @@ svg.icon__arrow-up {
   .sortable-wrap .bootcamp-start h3 {
     font-size: 22px;
   }
-  .subscribe-dec h2 {
-    font-size: 50px;
+  .subscribe-dec h2 span {
+    font-size: 44px;
+  }
+  .subscribe-dec h2 span .off-text {
+    font-size: 30px;
   }
   .video-area iframe {
     height: 195px;
