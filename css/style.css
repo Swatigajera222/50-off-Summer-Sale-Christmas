@@ -173,14 +173,14 @@ ul {
 .sec-banner-wrap a {
   color: rgb(255, 255, 255);
   font-weight: 600;
-  background-color: rgb(43, 196, 61);
+  background-color: #fe018a;
   font-size: 44px;
   border-radius: 15px;
   padding: 20px 50px;
   text-transform: uppercase;
   position: absolute;
-  bottom: 23%;
-  left: 39%;
+  bottom: 14%;
+  right: 11%;
 }
 .sec-banner-wrap a:hover {
   background-color: #14b327;
@@ -927,7 +927,7 @@ svg.icon__arrow-up {
     border-radius: 6px;
     left: unset;
     right: 5%;
-    bottom: 20%;
+    bottom: 10%;
   }
   .sign-up {
     font-size: 18px;
