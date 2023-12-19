@@ -123,16 +123,18 @@ ul {
   font-family: "Inter-Bold";
   right: 50px;
   bottom: 153px;
-  color: #ff1783;
+  color: #ffffff;
   border: none;
   font-size: 48px;
   text-transform: uppercase;
   padding: 18px 30px;
   font-weight: bold;
-  background-image: url(..//img/btn-bg.svg);
+  /* background-image: url(..//img/btn-bg.svg); */
+  background-color: #ff1783;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  border-radius: 12px;
 }
 .banner-section .bg-web a:hover {
   color: #3d393b;
@@ -538,6 +540,7 @@ ul {
   margin-bottom: 20px;
   color: #fff;
   font-family: Inter-Bold;
+  text-transform: capitalize;
 }
 .subscribe-dec h3 {
   font-size: 74px;
