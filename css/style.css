@@ -938,12 +938,13 @@ svg.icon__arrow-up {
     display: block;
   }
   .sec-banner-wrap a {
-    font-size: 16px;
-    padding: 8px 20px;
+    font-size: 22px;
+    padding: 10px 20px;
     border-radius: 6px;
     left: unset;
-    right: 5%;
-    bottom: 10%;
+    right: 31%;
+    bottom: 5%;
+    background: #2bc43d;
   }
   .sign-up {
     font-size: 18px;
@@ -1114,7 +1115,7 @@ svg.icon__arrow-up {
     font-size: 22px;
   }
   .sec-banner-wrap a {
-    bottom: 18%;
+    bottom: 4%;
   }
   .sortable-wrap .bootcamp-start h1 {
     font-size: 36px;
