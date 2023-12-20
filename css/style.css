@@ -182,7 +182,7 @@ ul {
   text-transform: uppercase;
   position: absolute;
   bottom: 9%;
-  right: 5%;
+  right: 20%;
 }
 .sec-banner-wrap a:hover {
   background-color: #14b327;
@@ -625,7 +625,6 @@ svg.icon__arrow-up {
     font-size: 54px;
     padding: 24px 68px;
     bottom: 9%;
-    right: 6%;
   }
 }
 @media only screen and (max-width: 1400px) {
@@ -992,12 +991,12 @@ svg.icon__arrow-up {
     font-size: 38px;
   }
   .sec-banner-wrap a {
-    font-size: 22px;
-    padding: 10px 20px;
+    font-size: 30px;
+    padding: 12px 28px;
     border-radius: 6px;
     left: unset;
-    right: 31%;
-    bottom: 5%;
+    right: 22%;
+    bottom: 8%;
     background: #2bc43d;
   }
   .sign-up {
@@ -1170,6 +1169,7 @@ svg.icon__arrow-up {
   }
   .sec-banner-wrap a {
     bottom: 4%;
+    right: 18%;
   }
   .sortable-wrap .bootcamp-start h1 {
     font-size: 36px;
