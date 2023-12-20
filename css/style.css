@@ -175,14 +175,14 @@ ul {
 .sec-banner-wrap a {
   color: rgb(255, 255, 255);
   font-weight: 600;
-  background-color: rgb(43, 196, 61);
+  background-color: #14b327;
   font-size: 44px;
   border-radius: 15px;
   padding: 20px 50px;
   text-transform: uppercase;
   position: absolute;
-  bottom: 10%;
-  left: 18%;
+  bottom: 9%;
+  right: 5%;
 }
 .sec-banner-wrap a:hover {
   background-color: #14b327;
@@ -665,8 +665,8 @@ svg.icon__arrow-up {
   .sec-banner-wrap a {
     font-size: 38px;
     padding: 16px 40px;
-    bottom: 14%;
-    right: 8%;
+    bottom: 8%;
+    right: 3%;
   }
 }
 @media only screen and (max-width: 1150px) {
