@@ -933,8 +933,8 @@ svg.icon__arrow-up {
     padding: 0px 0px 40px;
   }
   .banner-section .bg-mobile a {
-    font-size: 14px;
-    padding: 10px 20px;
+    font-size: 16px;
+    padding: 10px 11px;
     line-height: 16px;
     right: 10px;
     bottom: 90px;
@@ -1134,6 +1134,10 @@ svg.icon__arrow-up {
   .sortable-wrap .bootcamp-start h3 {
     font-size: 22px;
   }
+  .banner-section .bg-mobile a {
+    font-size: 15px;
+    padding: 8px 8px;
+  }
   .subscribe-dec h2 span {
     font-size: 44px;
   }
@@ -1160,6 +1164,12 @@ svg.icon__arrow-up {
 @media only screen and (max-width: 374px) {
   .subscribe-dec h2 {
     font-size: 40px;
+  }
+
+  .banner-section .bg-mobile a {
+    font-size: 12px;
+    padding: 8px 8px;
+    bottom: 70px;
   }
   .subscribe-section {
     padding: 40px 0px;
