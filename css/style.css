@@ -175,14 +175,14 @@ ul {
 .sec-banner-wrap a {
   color: rgb(255, 255, 255);
   font-weight: 600;
-  background-color: #fe018a;
+  background-color: rgb(43, 196, 61);
   font-size: 44px;
   border-radius: 15px;
   padding: 20px 50px;
   text-transform: uppercase;
   position: absolute;
-  bottom: 14%;
-  right: 11%;
+  bottom: 10%;
+  left: 18%;
 }
 .sec-banner-wrap a:hover {
   background-color: #14b327;
